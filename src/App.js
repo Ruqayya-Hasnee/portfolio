@@ -1,11 +1,10 @@
 import './App.css';
+import Main from './Components/Main';
 
 function App() {
   return (
     <div className='App'>
-    <h1 className="text-3xl font-bold underline bg-pink-100">
-    Hello world!
-  </h1>
+   <Main />
     </div>
   );
 }

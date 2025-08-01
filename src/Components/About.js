@@ -8,19 +8,19 @@ import "../App.css";
 function About() {
   return (
     <div
-      className="flex flex-wrap justify-center items-center mt-10 px-10"
+      className="flex flex-wrap justify-center items-center mt-10 p-10"
       id="Home"
     >
       <div className="flex-1">
-        <span className={Styles.heroHeadText}>
+        <p className={Styles.heroHeadText}>
           Hi, I'm <span className="text-orange-600">Ruqayya</span>
           <br />
-          <span className={Styles.heroSubText}>
+          <p className={Styles.heroSubText}>
             I'm a Fullstack Developer &
             <br />
             Web Designer
-          </span>
-        </span>
+          </p>
+        </p>
         <br />
         <div className="w-[14rem]">
           <a href={Resume} download="Resume" target="blank" rel="noreferrer">
@@ -30,11 +30,11 @@ function About() {
           </a>
         </div>
       </div>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap p-4">
         <img
           src={profile}
           alt="profile"
-          className="element object-contain w-[400px]"
+          className="element object-contain w-[450px]"
         />
       </div>
     </div>
